@@ -1,0 +1,6 @@
+name = "summer-disk-1fe6"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[assets]
+directory = "./public"
