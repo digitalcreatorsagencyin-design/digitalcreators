@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample Restaurant Website | Digital Creators Demo</title>
+  <meta name="description" content="A sample website for a restaurant or café: menu, order on WhatsApp, table reservation and opening hours. Made by Digital Creators.">
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&family=Fraunces:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="logo.svg">
+  <meta name="theme-color" content="#fff8ef">
+  <link rel="stylesheet" href="css/demo.css">
+</head>
+<body class="demo theme-restaurant">
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-wa" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 1 1 12 20zm4.4-5.6c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.5.1-.6.8-.8 1-.3.2-.5.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.1 0-.3 0-.4l-.7-1.6c-.2-.4-.4-.4-.5-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.8 11.8 0 0 0 4.5 4c1.7.7 2.4.8 3.2.7a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.2-.2-.5-.3z"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM17.5 5.8a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2z"/></symbol>
+    <symbol id="i-fb" viewBox="0 0 24 24"><path d="M13.5 22v-8.2h2.8l.5-3.3h-3.3V8.4c0-1 .4-1.7 1.8-1.7H17V3.8A21 21 0 0 0 14.6 3.7c-2.5 0-4.2 1.5-4.2 4.3v2.5H7.6v3.3h2.8V22h3.1z"/></symbol>
+    <symbol id="i-ph" viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></symbol>
+    <symbol id="i-mp" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></symbol>
+  </svg>
+
+  <div class="sample-bar"><span>SAMPLE WEBSITE · this is how your restaurant site could look</span><a href="index.html#services">Get yours for ₹9,000 →</a><a href="index.html#industries">← All industries</a></div>
+
+  <header class="d-header">
+    <div class="d-wrap d-nav">
+      <a class="d-logo" href="#top"><i>S</i> Spice &amp; Brew Café</a>
+      <nav class="d-links"><a href="#menu">Menu</a><a href="#timings">Hours</a><a href="#book">Reserve</a><a href="#connect">Find us</a></nav>
+      <a class="d-btn d-btn-primary d-btn-sm" href="#book" data-scroll="#book">Reserve a table</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="d-hero">
+      <div class="d-wrap d-hero-grid">
+        <div>
+          <span class="d-eyebrow">Café &amp; kitchen · Thane</span>
+          <h1>Fresh from the tandoor. Straight to your table.</h1>
+          <p class="lead">Browse the menu, build your order and send it on WhatsApp, or reserve a table in under a minute.</p>
+          <div class="d-actions">
+            <a class="d-btn d-btn-primary" href="#menu" data-scroll="#menu">Order from the menu</a>
+            <a class="d-btn d-btn-wa" href="#book" data-scroll="#book"><svg width="20" height="20" fill="currentColor"><use href="#i-wa"/></svg> Reserve a table</a>
+          </div>
+          <span id="open-badge" class="open-badge">Checking timings…</span>
+          <div class="d-trust"><span>✓ Dine-in &amp; takeaway</span><span>✓ Fresh ingredients daily</span><span>✓ UPI accepted</span></div>
+        </div>
+        <div class="plate-art" aria-hidden="true"><div class="plate">🍛</div><span class="chip c1">⭐ Chef’s special</span><span class="chip c2">🔥 Hot &amp; fresh</span><span class="chip c3">🌿 Veg options</span></div>
+      </div>
+    </section>
+
+    <section id="menu" class="d-section">
+      <div class="d-wrap">
+        <div class="d-heading reveal"><span class="d-eyebrow">Our menu</span><h2>Pick your favourites</h2><p>Tap “Add to order”, then open your cart and send the order on WhatsApp.</p></div>
+        <div id="menu-tabs" class="tabs"></div>
+        <div class="dish-grid">
+          <article class="dish reveal" data-cat="Starters" data-item="d0" data-name="Paneer Tikka" data-price="260"><div class="emoji">🧆</div><span class="tag veg">Veg</span><div class="svc-top"><h3>Paneer Tikka</h3><span class="price">₹260</span></div><p style="margin:0">Smoky tandoori paneer with mint chutney.</p><button type="button" class="add">Add to order</button></article>
+          <article class="dish reveal" data-cat="Starters" data-item="d1" data-name="Chicken 65" data-price="290"><div class="emoji">🍗</div><span class="tag nv">Non-veg</span><div class="svc-top"><h3>Chicken 65</h3><span class="price">₹290</span></div><p style="margin:0">Crispy, spicy and curry-leaf tossed.</p><button type="button" class="add">Add to order</button></article>
+          <article class="dish reveal" data-cat="Mains" data-item="d2" data-name="Butter Chicken" data-price="360"><div class="emoji">🍛</div><span class="tag nv">Non-veg</span><div class="svc-top"><h3>Butter Chicken</h3><span class="price">₹360</span></div><p style="margin:0">Slow-cooked in a creamy tomato gravy.</p><button type="button" class="add">Add to order</button></article>
+          <article class="dish reveal" data-cat="Mains" data-item="d3" data-name="Dal Makhani" data-price="280"><div class="emoji">🥘</div><span class="tag veg">Veg</span><div class="svc-top"><h3>Dal Makhani</h3><span class="price">₹280</span></div><p style="margin:0">Overnight black lentils, finished with butter.</p><button type="button" class="add">Add to order</button></article>
+          <article class="dish reveal" data-cat="Mains" data-item="d4" data-name="Veg Biryani" data-price="260"><div class="emoji">🍚</div><span class="tag veg">Veg</span><div class="svc-top"><h3>Veg Biryani</h3><span class="price">₹260</span></div><p style="margin:0">Fragrant basmati layered with vegetables and raita.</p><button type="button" class="add">Add to order</button></article>
+          <article class="dish reveal" data-cat="Breads" data-item="d5" data-name="Butter Naan" data-price="60"><div class="emoji">🫓</div><span class="tag veg">Veg</span><div class="svc-top"><h3>Butter Naan</h3><span class="price">₹60</span></div><p style="margin:0">Fresh from the tandoor.</p><button type="button" class="add">Add to order</button></article>
+          <article class="dish reveal" data-cat="Drinks" data-item="d6" data-name="Cold Coffee" data-price="150"><div class="emoji">☕</div><span class="tag veg">Veg</span><div class="svc-top"><h3>Cold Coffee</h3><span class="price">₹150</span></div><p style="margin:0">Thick, chilled and just sweet enough.</p><button type="button" class="add">Add to order</button></article>
+          <article class="dish reveal" data-cat="Drinks" data-item="d7" data-name="Fresh Lime Soda" data-price="90"><div class="emoji">🍋</div><span class="tag veg">Veg</span><div class="svc-top"><h3>Fresh Lime Soda</h3><span class="price">₹90</span></div><p style="margin:0">Sweet, salted or mixed.</p><button type="button" class="add">Add to order</button></article>
+          <article class="dish reveal" data-cat="Desserts" data-item="d8" data-name="Gulab Jamun (2)" data-price="110"><div class="emoji">🍮</div><span class="tag veg">Veg</span><div class="svc-top"><h3>Gulab Jamun (2)</h3><span class="price">₹110</span></div><p style="margin:0">Warm, soft and syrupy.</p><button type="button" class="add">Add to order</button></article>
+        </div>
+        <p class="fine">Sample menu and prices. Yours will show your real dishes.</p>
+      </div>
+    </section>
+
+    <section id="timings" class="d-section" style="background:var(--card)">
+      <div class="d-wrap tt-grid reveal">
+        <div>
+          <span class="d-eyebrow">Opening hours</span>
+          <h2>When we’re open</h2>
+          <p>Today is highlighted, and the “Open now” badge updates by itself, so guests always know before they walk in.</p>
+          <div class="d-actions"><a class="d-btn d-btn-ghost" data-map><svg width="18" height="18" fill="currentColor"><use href="#i-mp"/></svg> Get directions</a></div>
+        </div>
+        <table class="tt"><tbody id="timetable"></tbody></table>
+      </div>
+    </section>
+
+    <section id="book" class="d-section">
+      <div class="d-wrap reveal" style="max-width:760px">
+        <div class="d-heading"><span class="d-eyebrow">Reserve a table</span><h2>Book your table in a minute</h2></div>
+        <div class="book-card">
+          <span class="step-label" style="margin-top:0">1 · Guests</span>
+          <div id="book-services" class="chips"></div>
+          <span class="step-label">2 · Day</span>
+          <div id="book-dates" class="chips"></div>
+          <span class="step-label">3 · Time</span>
+          <div id="book-slots" class="chips"></div>
+          <form id="book-form" class="d-form" novalidate>
+            <span class="step-label">4 · Your details</span>
+            <div class="form-row">
+              <label>Name<input name="name" autocomplete="name" placeholder="Your name"></label>
+              <label>Mobile<input name="phone" type="tel" inputmode="numeric" autocomplete="tel" placeholder="10-digit mobile number"></label>
+            </div>
+            <label>Special request (optional)<textarea name="note" placeholder="e.g. Birthday cake, window seat, high chair"></textarea></label>
+            <div id="book-summary" class="summary"></div>
+            <p id="form-err" class="form-err" role="alert"></p>
+            <button class="d-btn d-btn-wa" type="submit" style="width:100%"><svg width="20" height="20" fill="currentColor"><use href="#i-wa"/></svg> Send reservation on WhatsApp</button>
+          </form>
+          <p class="fine">This is a request, not an automatic confirmation. The café replies on WhatsApp to confirm your table.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="connect" class="d-section">
+      <div class="d-wrap reveal">
+        <div class="d-heading"><span class="d-eyebrow">Find us everywhere</span><h2>Follow, message, visit</h2></div>
+        <div class="connect">
+          <a data-wa="Hi! I'd like to know more about your menu."><span class="ico wa"><svg><use href="#i-wa"/></svg></span><span><strong>WhatsApp</strong><span class="sub">Order or ask</span></span></a>
+          <a data-ig><span class="ico ig"><svg><use href="#i-ig"/></svg></span><span><strong>Instagram</strong><span class="sub">Food photos &amp; reels</span></span></a>
+          <a data-fb><span class="ico fb"><svg><use href="#i-fb"/></svg></span><span><strong>Facebook</strong><span class="sub">Offers &amp; events</span></span></a>
+          <a data-map><span class="ico mp"><svg><use href="#i-mp"/></svg></span><span><strong>Directions</strong><span class="sub">Open in Google Maps</span></span></a>
+        </div>
+        <p class="fine">In this demo the buttons open Digital Creators’ own WhatsApp, Instagram and Facebook. On your site they open yours.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="d-footer"><div class="d-wrap">© Sample Spice &amp; Brew Café · Website by <a href="index.html">Digital Creators</a> · <a href="index.html#services">Get a site like this for ₹9,000</a></div></footer>
+
+  <nav class="action-bar" aria-label="Quick contact">
+    <a class="wa" data-wa="Hi! I'd like to know more about your menu."><svg><use href="#i-wa"/></svg>WhatsApp</a>
+    <a class="ph" data-call><svg><use href="#i-ph"/></svg>Call</a>
+    <a class="ig" data-ig><svg><use href="#i-ig"/></svg>Instagram</a>
+    <a class="fb" data-fb><svg><use href="#i-fb"/></svg>Facebook</a>
+  </nav>
+
+  <button class="cart-fab" data-cart-open aria-label="Open cart">🛒 <span id="cart-count">0</span></button>
+  <div id="cart-overlay" class="cart-overlay"></div>
+  <aside id="cart" class="cart" aria-label="Your order">
+    <div class="cart-head"><h3>Your order</h3><button data-cart-close aria-label="Close">×</button></div>
+    <div id="cart-body" class="cart-body"></div>
+    <div class="cart-foot">
+      <div class="cart-total"><span>Total</span><span id="cart-total">₹0</span></div>
+      <form id="cart-form" class="d-form" novalidate>
+        <div class="form-row"><label>Name<input name="name" autocomplete="name" placeholder="Your name"></label><label>Mobile<input name="phone" type="tel" inputmode="numeric" autocomplete="tel" placeholder="10-digit mobile"></label></div>
+        <label>Delivery address (leave empty for takeaway)<textarea name="address" placeholder="Flat, building, area"></textarea></label>
+        <p id="cart-err" class="form-err" role="alert"></p>
+        <button class="d-btn d-btn-wa" type="submit" style="width:100%"><svg width="20" height="20" fill="currentColor"><use href="#i-wa"/></svg> Send order on WhatsApp</button>
+      </form>
+    </div>
+  </aside>
+  <script>
+    // ===== EDIT THIS BLOCK FOR A REAL CLIENT =====
+    window.DEMO_CFG = {
+      "whatsapp": "919987056334",
+      "instagram": "https://www.instagram.com/digitalcreatorsagency.in/",
+      "facebook": "https://www.facebook.com/profile.php?id=61593325967144",
+      "map": "https://www.google.com/maps/search/?api=1&query=Thane+Maharashtra",
+      "slotMinutes": 30,
+      "mode": "restaurant",
+      "greeting": "Hi! I'd like to know more about your menu.",
+      "bookingIntro": "Hi! I'd like to reserve a table at Spice & Brew Café (sample).",
+      "serviceLabel": "Guests",
+      "options": [
+            "1–2 guests",
+            "3–4 guests",
+            "5–6 guests",
+            "7+ guests"
+      ],
+      "orderIntro": "Hi! I'd like to place an order at Spice & Brew Café (sample).",
+      "hours": {
+            "0": [
+                  "11:00",
+                  "23:00"
+            ],
+            "1": [
+                  "11:00",
+                  "23:00"
+            ],
+            "2": [
+                  "11:00",
+                  "23:00"
+            ],
+            "3": [
+                  "11:00",
+                  "23:00"
+            ],
+            "4": [
+                  "11:00",
+                  "23:00"
+            ],
+            "5": [
+                  "11:00",
+                  "23:30"
+            ],
+            "6": [
+                  "11:00",
+                  "23:30"
+            ]
+      }
+};
+  </script>
+  <script src="js/demo.js"></script>
+</body>
+</html>
