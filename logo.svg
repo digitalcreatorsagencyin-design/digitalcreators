@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <rect width="400" height="120" rx="16" fill="#ffffff"/>
+  <g transform="translate(18, 12)">
+    <path d="M22 18H52C69 18 82 31 82 50C82 69 69 82 52 82H22V18Z" stroke="#0A1B3D" stroke-width="13" stroke-linejoin="round" fill="none"/>
+    <path d="M12 68L36 44L49 58L78 22" stroke="#0066FF" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M60 22H78V40" stroke="#0066FF" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <text x="135" y="55" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="34" letter-spacing="5" fill="#0A1B3D">DIGITAL</text>
+  <text x="135" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="16" letter-spacing="3" fill="#0066FF">— CREATORS —</text>
+  <text x="135" y="100" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="9" letter-spacing="3" fill="#0A1B3D">MARKETING • GROWTH • RESULTS</text>
+</svg>
